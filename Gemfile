@@ -17,7 +17,7 @@ gem 'haml'
 
 group :production do
   gem 'unicorn'
-  gem 'puma'
+  gem 'puma', '>= 4.3.8'
 end
 
 group :development, :test do
