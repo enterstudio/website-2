@@ -24,6 +24,6 @@ group :development, :test do
   gem 'gh_contributors'
   gem 'rake', '~> 10.3'
   gem 'rspec'
-  gem 'capybara'
+  gem 'capybara', '>= 2.2.1'
 end
 
